@@ -1,10 +1,11 @@
 import  React, { useState, useEffect, useRef } from 'react';
 import TodoCreator from "./FormInput";
 import TodoList from "./List";
-import { createMuiTheme } from "@material-ui/core/styles";
+import { createTheme } from '@mui/material/styles';
 
 
-const theme = createMuiTheme({
+
+const theme = createTheme({
     palette: {
         primary: { main: '#000000' },
     },
